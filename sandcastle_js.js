@@ -1,4 +1,4 @@
-const api_key = "YOUR_GOGGLE_MAP_API_KEY";
+const api_key = "YOUR_GOOGLE_MAP_API_KEY";
 loadScript(
   "https://maps.googleapis.com/maps/api/js?key=" +
     api_key +
