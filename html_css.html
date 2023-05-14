@@ -1,0 +1,24 @@
+<style>
+      @import url(../templates/bucket.css);
+</style>
+<style>
+     .info {
+        background-color: #2ecc71;
+        width: 200px;
+        height: 200px;
+        top: 600px;
+    }
+</style>
+    <div id="cesiumContainer" class="fullSize"></div>
+    <div id="loadingOverlay"><h1>Loading...</h1></div>
+    <div id="toolbar">
+      <select data-bind="options: tilesets, optionsText: 'name', value: selectedTileset, optionsCaption: 'Choose a Tileset...'"></select>
+      <div>
+         <input id="pacViewPlace" type="text" placeholder="Enter a location">
+      </div>
+      <div>
+          <input type="checkbox" data-bind="checked: shadows"> Shadows</div>
+          <input type="checkbox" data-bind="checked: elevation"> Elevation</div>
+      </div>
+    </div>
+    <div id="info" class="info" >This is info...</div>
